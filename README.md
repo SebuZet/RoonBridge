@@ -1,5 +1,5 @@
 # RoonBridge
-Dockerfile for RoonBridge on Linux x86_64
+Dockerfile for RoonBridge on Raspberry PI
 
 Roon data files are stored in /var/roon.
 
@@ -9,4 +9,4 @@ Note: I have not tested this, but seems like it should work =)
 
 Example:
 
-    docker run --name RoonBridge --net=host -d -v /home/roon:/var/roon mikedickey/roonbridge
+    docker run --name RoonBridge --net=host -d -v /home/roon:/var/roon SebuZet/roonbridge
